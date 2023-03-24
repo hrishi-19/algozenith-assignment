@@ -1,6 +1,6 @@
 import React from 'react'
 import { grayBox } from '../data/data'
-import GrayBox from './grayBox'
+import GrayBox from './GrayBox'
 
 const PriceText = () => {
     return (

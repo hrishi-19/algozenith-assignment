@@ -1,0 +1,23 @@
+#root {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.toplayout{
+  background:linear-gradient(90deg,#0f3960,#03344a,#044866);
+} 
+.color{
+  color: #043347 ;
+}
+.gradient{
+  background: linear-gradient(to right,#08374b,#00567d);
+  border: 1px solid rgba(255, 255, 255,0.3);
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+.pricelayout{
+  background: url('./assets/graph.png') no-repeat center ;
+  background-size: cover;
+}

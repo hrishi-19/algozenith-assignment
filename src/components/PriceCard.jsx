@@ -13,7 +13,7 @@ const PriceCard = () => {
                     <br />
                     <span className='text-4xl font-extrabold text-sky-800'>&#8377; 13,999</span>
                 </div>
-                <div className='basis-3/4 toplayout px-3 pt-3 p-6 rounded-b-md'>
+                <div className='basis-3/4  grid-bg px-3 pt-3 p-6 rounded-b-md'>
                 {priceData.map(item=><ButtonOption key={item} resp={"option-box flex  items-center mt-5 w-full "} text={item}/>)}
                 <ActionButton Class={"px-10 py-1 bg-slate-100 color font-bold rounded-md mt-3 w-full "} text={"Join Now"} />
                 </div>

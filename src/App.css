@@ -21,3 +21,20 @@
   background: url('./assets/graph.png') no-repeat center ;
   background-size: cover;
 }
+.grid-bg{
+  background:linear-gradient(to right,#08374b,#00567d);
+  position: relative;
+  
+}
+.grid-bg:after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./assets/card-bg-grid.png") no-repeat center;
+  background-size: cover;
+  opacity: 0.1;
+
+}
